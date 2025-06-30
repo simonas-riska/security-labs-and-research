@@ -1,0 +1,6 @@
+@TaskNr2_2FA_HostAddress = http://localhost:5156
+
+GET {{TaskNr2_2FA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
