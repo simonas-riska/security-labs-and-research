@@ -1,6 +1,6 @@
 # 🛡️ Simonas Riška – Cybersecurity Portfolio [EN]
 
-A curated collection of my practical labs, writeups, and research in cybersecurity.
+A curated collection of my university practical labs, writeups, and research in cybersecurity.
 
 ## 👨‍🎓 About Me / Apie mane
 
@@ -14,7 +14,7 @@ A curated collection of my practical labs, writeups, and research in cybersecuri
 ---
 
 # 🛡️ Simonas Riška – Kibernetinio saugumo portfolio [LT]
-Mano praktinių laboratorinių darbų, aprašymų ir tyrimų kibernetinio saugumo srityje kolekcija.
+Atrinkta mano universitetinių praktinių laboratorinių darbų, aprašymų ir tyrimų kolekcija kibernetinio saugumo srityje.
 
 ## 👨‍🎓 About Me / Apie mane
 
