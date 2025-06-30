@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #4a90e2;
+    --primary-dark: #3a78c1;
+    --secondary-color: #f5f5f5;
+    --text-color: #333;
+    --input-background: #fff;
+    --border-radius: 5px;
+    --input-padding: 10px;
+    --label-font-weight: 600;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }

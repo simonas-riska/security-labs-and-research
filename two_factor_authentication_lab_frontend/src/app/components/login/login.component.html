@@ -1,0 +1,18 @@
+<div>
+  <h3>Login</h3>
+  <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
+    <label for="username">Username</label>
+    <input type="text" id="username" formControlName="usernameOrEmail" required />
+    <button type="button" *ngIf="!showPasswordField" (click)="onSubmit()">Next</button>
+
+    <div *ngIf="showPasswordField">
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password" required />
+      <button type="submit" (click)="onSubmit()">Login</button>
+    </div>
+  </form>
+
+  <button (click)="goToRegister()">Register</button>
+
+  <p *ngIf="loginError" class="error">{{ loginError }}</p>
+</div>

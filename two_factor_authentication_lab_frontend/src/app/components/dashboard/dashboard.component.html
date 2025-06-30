@@ -1,0 +1,33 @@
+<div>
+    <h2>Dashboard</h2>
+    <button (click)="logout()">Logout</button>
+  
+    <div *ngIf="errorMessage" class="error">
+      {{ errorMessage }}
+    </div>
+  
+    <div *ngIf="weatherData.length > 0; else noData">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Temperature (C)</th>
+            <th>Temperature (F)</th>
+            <th>Summary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let forecast of weatherData">
+            <td>{{ forecast.date }}</td>
+            <td>{{ forecast.temperatureC }}</td>
+            <td>{{ forecast.temperatureF }}</td>
+            <td>{{ forecast.summary }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <ng-template #noData>
+      <p>No weather data available.</p>
+    </ng-template>
+  </div>

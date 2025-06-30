@@ -1,0 +1,17 @@
+<div>
+    <h3>Two-Factor Authentication</h3>
+    <form (ngSubmit)="onSubmit()">
+      <label for="code">{{ isBackupCode ? 'Enter Backup Code' : 'Enter 2FA Code' }}</label>
+      <input type="text" id="code" [(ngModel)]="code" name="code" required />
+      
+      <button type="submit">{{ isBackupCode ? 'Login with Backup Code' : 'Login with 2FA' }}</button>
+    </form>
+  
+    <button (click)="toggleBackupCode()">
+      {{ isBackupCode ? 'Use 2FA Code Instead' : 'Use Backup Code Instead' }}
+    </button>
+  
+    <p *ngIf="message">{{ message }}</p>
+
+    <button (click)="logout()">Logout</button>
+  </div>
