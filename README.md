@@ -11,7 +11,7 @@ A curated collection of my university practical labs, writeups, and research in 
 📍 Vilnius, Lithuania<br>
 📧 simonas.riska@gmail.com
 
-### 📚 Project Report Overview
+### 📚 Overview
 
 | File Name | Description |
 |-----------|-------------|
@@ -47,7 +47,7 @@ Atrinkta mano universitetinių praktinių laboratorinių darbų, aprašymų ir t
 📍 Vilnius, Lietuva<br>
 📧 simonas.riska@gmail.com
 
-### 📚 Projekto ataskaitų apžvalga
+### 📚 Apžvalga
 
 | Failo pavadinimas | Aprašymas |
 |-------------------|-----------|
